@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: rgb(256, 256, 256);
+}
+main {
+    display: flex; flex-direction: row;
+    justify-content: center;
+}
+.pergunta {
+    font-size: 28px; font-weight: bold;
+    margin: 15px;
+}
+.resposta {
+    width: 500px;
+    background-color: rgb(102, 238, 131);
+    border-radius: 10px; padding: 20px; margin: 15px;
+    font-size: 18px;
+}
+.linha-ajuste {
+    display: flex; flex-direction: column;
+}
+.linha-botão {
+    display: flex; justify-content: space-around;
+    margin-top: 50px
+}
+.botão {
+    color:rgb(253, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
