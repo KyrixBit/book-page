@@ -5,7 +5,7 @@
   background-color: rgb(256, 256, 256);
 }
 main {
-    display: flex; flex-direction: row;
+    display: flex; flex-direction: row; flex-wrap: wrap;
     justify-content: center;
 }
 .pergunta {
@@ -13,7 +13,7 @@ main {
     margin: 15px;
 }
 .resposta {
-    width: 500px;
+    width: 70%;
     background-color: rgb(102, 238, 131);
     border-radius: 10px; padding: 20px; margin: 15px;
     font-size: 18px;
